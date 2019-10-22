@@ -1,6 +1,27 @@
 # stylelint-plugin-block-opening-brace-empty-line-after
 
+[![TravisCI Status](https://travis-ci.org/doochik/stylelint-plugin-block-opening-brace-empty-line-after.svg?branch=master)](https://travis-ci.org/doochik/stylelint-plugin-block-opening-brace-empty-line-after)
+[![NPM
+version](https://img.shields.io/npm/v/stylelint-plugin-block-opening-brace-empty-line-after.svg)](https://www.npmjs.org/package/stylelint-plugin-block-opening-brace-empty-line-after)
+
+This is symmetric rule to [block-closing-brace-empty-line-before](https://stylelint.io/user-guide/rules/block-closing-brace-empty-line-before)
+
 `npm install --save-dev stylelint-plugin-block-opening-brace-empty-line-after`
+
+```js
+// stylelint.config.js
+
+module.exports = {
+    plugins: [
+        // ...
+        'stylelint-plugin-block-opening-brace-empty-line-after',
+    ],
+    rules: {
+        // ...
+        'plugin/block-opening-brace-empty-line-after': 'never',
+    },
+};  
+```
 
 ## block-opening-brace-empty-line-before
 
