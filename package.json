@@ -1,0 +1,47 @@
+{
+  "name": "stylelint-plugin-block-opening-brace-empty-line-after",
+  "version": "1.0.0",
+  "description": "stylelint rule block-opening-brace-empty-line-after",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "unit-test": "node rules/block-opening-brace-empty-line-after/__tests__",
+    "test": "npm run eslint && npm run unit-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doochik/stylelint-plugin-block-opening-brace-empty-line-after.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin"
+  ],
+  "author": "Aleksei Androsov <doochik@ya.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doochik/stylelint-plugin-block-opening-brace-empty-line-after/issues"
+  },
+  "homepage": "https://github.com/doochik/stylelint-plugin-block-opening-brace-empty-line-after#readme",
+  "peerDependencies": {
+    "stylelint": "^10.0.0 || ^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-stylelint": "^11.1.0",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "stylelint": "^11.1.1",
+    "stylelint-test-rule-tape": "^0.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
