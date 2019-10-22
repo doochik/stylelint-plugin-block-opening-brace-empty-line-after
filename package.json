@@ -1,6 +1,6 @@
 {
   "name": "stylelint-plugin-block-opening-brace-empty-line-after",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "stylelint rule block-opening-brace-empty-line-after",
   "main": "index.js",
   "scripts": {
