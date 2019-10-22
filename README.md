@@ -23,7 +23,7 @@ module.exports = {
 };  
 ```
 
-## block-opening-brace-empty-line-before
+## block-opening-brace-empty-line-after
 
 Require or disallow an empty line after the opening brace of blocks.
 
