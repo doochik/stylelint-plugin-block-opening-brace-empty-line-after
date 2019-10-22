@@ -1,1 +1,3 @@
-rules/block-opening-brace-empty-line-after/__tests__
+.idea/
+.travis.yml  
+rules/block-opening-brace-empty-line-after/__tests__/
