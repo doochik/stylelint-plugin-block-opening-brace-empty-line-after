@@ -9,6 +9,7 @@ version](https://img.shields.io/npm/v/stylelint-plugin-block-opening-brace-empty
 ⚠️ This plugin is deprecated since [stylelint-order@4.0.0](https://github.com/hudochenkov/stylelint-order/releases/tag/4.0.0).
 * https://github.com/hudochenkov/stylelint-order/commit/a84d26470bea56099f5169b9dc179ef5af0efa75
 * https://github.com/hudochenkov/stylelint-order/issues/95
+* https://github.com/stylelint/stylelint/issues/4366
 
 ## Motivation
 
